@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Judul</title>
-    <link rel="stylesheet" href="tes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Visualization: BFS and DFS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ini adalah tes html</h1>
-    <hr />
-    <p> Ini adalah masalah yang <i>sensitif</i></p>
+    <h1>Graph Traversal Visualization: BFS and DFS</h1>
+    <div id="graph-container">
+        <canvas id="graphCanvas"></canvas>
+    </div>
+    <button onclick="bfs()">Start BFS</button>
+    <button onclick="dfs()">Start DFS</button>
+    <script src="script.js"></script>
 </body>
 </html>
